@@ -1,0 +1,124 @@
+*{
+    background: #F3F5FC;
+    font-family: 'Instrument sans';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo {
+    padding: 30px;
+    margin-left: 50px;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.primertexto{
+    border: none;
+    color: navy;
+}
+
+::placeholder {color: navy;}
+    .primertexto.focus {
+        outline: none;
+    }
+
+.mensaje{
+    background: white;
+    background-image: url(person.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: navy;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+    position: left;
+}
+
+.mensaje.focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+}
+
+
+.encriptar{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    text-align: center;
+    padding: 15px 90px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #356EA9;
+    border-radius: 24px;
+    border: none;
+    font-size: 25px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.encriptar:hover{
+    background: #0A3871;
+    transform: scale(1.05);
+}
+
+.desencriptar{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    text-align: center;
+    padding: 15px 70px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #AAB2D5;
+    border: none;
+    border-radius: 24px;
+    font-size: 25px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.desencriptar:hover{
+    background: #757FB2;
+    transform: scale(1.05);
+}
+
+.informacion{
+    color: #0A3871;
+    font-size: 20px;
+}
+
+.copiar{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    text-align: center;
+    padding: 15px 110px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #F3F5FC;
+    border-radius: 24px;
+    border: 5px solid #E9ECF8;
+    position: absolute;
+    font-size: 25px;
+    color: #0A3871;
+    cursor: pointer;
+}
+
+.copiar:hover{
+    background: #E9ECF8;
+    transform: scale(1.05);
+}
